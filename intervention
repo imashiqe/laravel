@@ -1,3 +1,7 @@
+use Intervention\Image\Facades\Image;
+
+
+
 if ($request->hasFile('profile_photo')) {
 
     $get_db_img = Employee::findOrFail($request->id)->profile_photo;
