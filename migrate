@@ -1,4 +1,4 @@
-Clone or download this repo and place it into your server.
+
 composer install
 1 . composer update
 cp .env.example .env
